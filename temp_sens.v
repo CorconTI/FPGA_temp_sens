@@ -50,7 +50,7 @@ reg new_adc=0;
 assign LED=D_outw;
 assign LED8=MISO;
 
-spi_alexa spi(						//spi интерфейс
+spi spi(						//spi интерфейс
 .clk(clk),
 .start(start),
 .MISO(MISO),
